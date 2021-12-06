@@ -1,8 +1,8 @@
-import matrolib.pyplot from as plt
+import matplotlib.pyplot as plt
 import numpy as np
 
-x = [1, 1, 5, 5]
-y = [1, 5, 1, 5]
+x = [1, 5, 5, 1, 1]
+y = [5, 5, 1, 1, 5]
 
 plt.plot(x, y, color='g', label='luchte', marker='>', ms=5)
 
@@ -13,5 +13,3 @@ plt.legend()
 plt.title('Base')
 plt.grid()
 plt.show()
-
-
